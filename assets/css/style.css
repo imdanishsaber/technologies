@@ -994,25 +994,23 @@ section {
 --------------------------------------------------------------*/
 
 .clients .clients-wrap {
-  border-top: 1px solid #eee;
-  border-left: 1px solid #eee;
+  border: 1px solid #eee;
 }
 
 .clients .client-logo {
-  padding: 30px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 80px;
   overflow: hidden;
-  background: #fff;
-  height: 120px;
-  border-right: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  padding: 10px 40px;
+  align-items: center;
+  background: #0d2735;
+  border: 5px solid white;
 }
 
 .clients .client-logo h3 {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -1025,10 +1023,15 @@ section {
 }
 
 .clients .client-logo h3 i {
-  font-size: 30px;
+  font-size: 20px;
   filter: none;
+  padding: 7px;
+  color: #0d2735;
   -webkit-filter: none;
   vertical-align: middle;
+  border-radius: 50px;
+  margin-right: 10px;
+  background-color: white;
 }
 
 .clients .client-logo:hover h3 {
