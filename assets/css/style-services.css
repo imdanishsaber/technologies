@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 # Back to top button
 --------------------------------------------------------------*/
 
+.bg-primary {
+  background: #4fa6d5 !important;
+}
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -127,6 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #4fa6d5;
   text-decoration: none;
 }
+
 .nav-menu .drop-down ul {
   display: block;
   position: absolute;
